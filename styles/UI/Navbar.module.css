@@ -1,0 +1,37 @@
+.navbar {
+  height: 100px;
+  padding: 1rem 2rem;
+  box-shadow: 0px 2px 15px rgba(86, 86, 86, 0.635);
+}
+.navLeft {
+  float: left;
+}
+.image {
+  height: 100px;
+  width: 127px;
+  margin: -15px 0 0 10px;
+  cursor: pointer;
+}
+
+.navRight {
+  float: right;
+}
+
+.navRight .navLinkList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 3px 0;
+}
+
+.navRight .navLinkList .navLinks {
+  margin-right: 1.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 2px 0;
+  font-weight: 500;
+  transition: 0.2s ease-in;
+}
+.navRight .navLinkList .navLinks:hover {
+  color: #01b46c;
+}

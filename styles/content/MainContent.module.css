@@ -1,0 +1,62 @@
+.section {
+  width: 100%;
+  /* height: 100vh; */
+  padding: 2rem 4rem;
+}
+
+.leftContent {
+  float: left;
+  width: 67%;
+  background-color: whitesmoke;
+  height: 100%;
+}
+
+.rightContent {
+  float: right;
+  padding: 1rem;
+  width: 33%;
+  background-color: blanchedalmond;
+  height: 500px;
+}
+
+.tableOfContents {
+  padding: 0 1rem;
+}
+.tableOfContents h1 {
+  font-size: 2rem;
+}
+
+.contentList {
+  background-color: white;
+  padding: 1rem 3rem;
+  line-height: 2rem;
+}
+
+.listItem {
+  transition: 0.3s ease;
+}
+
+.listItem:hover {
+  color: #01b46c;
+}
+
+.content {
+  padding: 0 1rem;
+}
+
+.content h1 {
+  font-size: 1.7rem;
+}
+.contentParagraph {
+  padding: 0.7rem 3rem;
+  background-color: white;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.link {
+  color: #01b46c;
+}
+.link:hover {
+  text-decoration: underline;
+}
